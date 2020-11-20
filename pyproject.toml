@@ -13,7 +13,6 @@ pytest-xdist = "^2.1.0"
 pytest-memprof = "^0.2.0"
 xdoctest = "^0.15.0"
 flake8 = "^3.8.4"
-flakehell = "^0.7.0"
 
 
 [tool.poetry.dependencies]
