@@ -164,7 +164,7 @@ requests = ">=2.11.1"
 
 [[package]]
 name = "doi2bib"
-version = "0.3.0"
+version = "0.4.0"
 description = "Generate a bibtex given a doi"
 category = "main"
 optional = false
@@ -711,7 +711,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7, <3.9"
-content-hash = "bf3c8cea05a9095c7b8c74aa493348b08757d0491d8d10ff62ab92fc19f1b04e"
+content-hash = "dabc8d231f32dbaa09bb0caed143f1a5790388fc34e9903bcecb12eb6fe58225"
 
 [metadata.files]
 apipkg = [
@@ -803,7 +803,8 @@ crossrefapi = [
     {file = "crossrefapi-1.5.0.tar.gz", hash = "sha256:db4b688d97ec624a243e52532e0ade6172185d2a778c9c7bc458b7ee129bb884"},
 ]
 doi2bib = [
-    {file = "doi2bib-0.3.0.tar.gz", hash = "sha256:5b8c8b4b03461ecda926addfef39e4214ad87e6b94e1df82281ae8e3212e60c7"},
+    {file = "doi2bib-0.4.0-py2-none-any.whl", hash = "sha256:4a2e2a14df4cff1f6cf2c1de4fda3545f6f6f76ef7f331ae81a582472042cb67"},
+    {file = "doi2bib-0.4.0-py3-none-any.whl", hash = "sha256:09401f766b1533c6d17d428ba26c65433009478f1b8d67a2b7f32871e9e8f90d"},
 ]
 dulwich = [
     {file = "dulwich-0.19.16-cp27-cp27m-win32.whl", hash = "sha256:267160904e9a1cb6c248c5efc53597a35d038ecc6f60bdc4546b3053bed11982"},
