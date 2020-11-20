@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "bibclean"
+version = "0.0.1"
+description = "Clean-up your bibtex and biblatex files"
+authors = ["Sebastian van der Voort"]
+license = "MIT"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+mypy = "^0.790"
+pytest-cov = "^2.8.1"
+pytest-xdist = "^1.31.0"
+pytest-memprof = "^0.2.0"
+xdoctest = "^0.12.0"
+
+
+[tool.poetry.dependencies]
+python = ">=3.7, <3.9"
+arxivcheck = "^0.3.2"
+beautifulsoup4 = "^4.8.2"
+bibcure = "0.3.0"
+bibtexparser = "1.1.0"
+crossref-commons = "^0.0.7"
+crossrefapi = "^1.4.0"
+doi2bib = "^0.3.0"
+numpy = "^1.18.1"
+python-Levenshtein = "^0.12.0"
+requests = "^2.22.0"
+title2bib = "^0.4.0"
+pylatexenc = "^2.8"
+IDUtils = "^1.1.8"
+nltk = "^3.5"
+wordninja = "^2.0.0"
+PyYAML = "^5.3.1"
+
+[tool.pytest.ini_options]
+markers = "datafiles"
+testpaths = "tests"
+addopts = "--xdoc --cov-report xml:coverage.xml --cov bibclean"
+#Needs to be legacy for now because of Visual Studio Code
+junit_family = "xunit1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
