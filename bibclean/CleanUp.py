@@ -57,7 +57,7 @@ def process_bib(config_file=None, input_file=None, output_file=None):
     bib_database = loaders.load_bibtex_file(bib_file)
 
     hashes = {}
-    new_entries = ()
+    new_entries = []
 
     for entry in bib_database.entries:
         print(entry["ID"])
