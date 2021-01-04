@@ -1,0 +1,35 @@
+file_paths:
+    input_bib_file: None
+    output_bib_file: None
+
+appearance:
+    max_authors: -1
+
+update_fields:
+    update_authors: True
+    update_date: True
+    update_container: True
+    update_publisher: True
+    update_editors: True
+    update_title: True
+    update_ISSN: True
+    update_ISBN: True
+    update_URL: True
+    update_pages: True
+    update_article_number: True
+    update_doi: True
+    update_volume: True
+    update_issue: True
+
+max_levenshtein_distance: 20
+remove_duplicate_entries: True
+# Some articles do not have pages, but article numbers
+# Some bibtex styels support this, other dont
+# Specify here in which key you want to save it
+# if pages, then with update pages True it will update the article number
+# if pages are not present
+article_number_keyword: 'pages'
+# If article_number_keyword is not pages
+# We will remove the 'pages' keyword if present and put it in the
+# keyword instead
+article_number_remove_pages: True
