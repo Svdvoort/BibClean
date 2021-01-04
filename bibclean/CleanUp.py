@@ -2,7 +2,7 @@ import hashlib
 import json
 import logging
 
-# import click
+import click
 import nltk
 
 from crossref.restful import Works
@@ -38,8 +38,6 @@ def get_entry_hash(entry):
     return entry_hash
 
 
-# @click.command()
-# @click.option("--config_file", prompt="Configuration file", help="The full path to the configuration file.", default=None)
 def process_bib(config_file=None, input_file=None, output_file=None):
     nltk.download("punkt")
 
@@ -128,5 +126,16 @@ def process_bib(config_file=None, input_file=None, output_file=None):
     writers.write_bibtex_file(bib_database, out_bib_file)
 
 
+@click.command()
+@click.option(
+    "--config_file",
+    prompt="Configuration file",
+    help="The full path to the configuration file.",
+    default=None,
+)
+def process_bib_cli(config_file):
+    process_bib(config_file=config_file)
+
+
 if __name__ == "__main__":
-    process_bib()
+    process_bib_cli()
