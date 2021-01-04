@@ -1,14 +1,21 @@
+import hashlib
+import json
 import logging
+
+# import click
+import nltk
+
+from crossref.restful import Works
+
 import bibclean.utils.cleaning as cleaner
 import bibclean.utils.convert as converter
 import bibclean.utils.formatting as formatter
+
 from bibclean.config import ConfigLoader
-from bibclean.IO import loaders, writers, ArgParser
+from bibclean.IO import ArgParser
+from bibclean.IO import loaders
+from bibclean.IO import writers
 from bibclean.utils import doi_tools
-from crossref.restful import Works
-import hashlib
-import json
-import nltk
 
 
 def get_entry_type(type_info):
@@ -31,6 +38,8 @@ def get_entry_hash(entry):
     return entry_hash
 
 
+# @click.command()
+# @click.option("--config_file", prompt="Configuration file", help="The full path to the configuration file.", default=None)
 def process_bib(config_file=None, input_file=None, output_file=None):
     nltk.download("punkt")
 
