@@ -599,13 +599,14 @@ python-versions = "*"
 
 [[package]]
 name = "flake8-functions"
-version = "0.0.4"
+version = "0.0.5"
 description = "A flake8 extension that checks functions"
 category = "dev"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
+mr-proper = "*"
 pytest = "*"
 
 [[package]]
@@ -973,6 +974,17 @@ description = "McCabe checker, plugin for flake8"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[[package]]
+name = "mr-proper"
+version = "0.0.6"
+description = "Package to find typos in russian text."
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+stdlib-list = ">=0.5.0"
 
 [[package]]
 name = "mypy"
@@ -1515,6 +1527,17 @@ lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
 
 [[package]]
+name = "stdlib-list"
+version = "0.8.0"
+description = "A list of Python Standard Libraries (2.6-7, 3.2-9)."
+category = "dev"
+optional = false
+python-versions = "*"
+
+[package.extras]
+develop = ["sphinx"]
+
+[[package]]
 name = "testfixtures"
 version = "6.17.0"
 description = "A collection of helpers and mock objects for unit tests and doc tests."
@@ -1685,7 +1708,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "295c0c1d05985ab17e02dc3332916fb611fb50db14bf1dee0de169c3f0e2684f"
+content-hash = "67c40f2550fe79c18d07a502c8e2223d140b980752a445cfb836b333548623ab"
 
 [metadata.files]
 alabaster = [
@@ -1945,8 +1968,7 @@ flake8-fixme = [
     {file = "flake8_fixme-1.1.1-py2.py3-none-any.whl", hash = "sha256:226a6f2ef916730899f29ac140bed5d4a17e5aba79f00a0e3ae1eff1997cb1ac"},
 ]
 flake8-functions = [
-    {file = "flake8_functions-0.0.4-py3-none-any.whl", hash = "sha256:a0254bf465ca2ae8e3b0c9c948d2cac8d843094aa66496e0b9338755952c0b42"},
-    {file = "flake8_functions-0.0.4.tar.gz", hash = "sha256:e6cde085e3e8ceade4a0256619aa0e381473aff76bbb1d37111f44bbc49ecace"},
+    {file = "flake8_functions-0.0.5.tar.gz", hash = "sha256:a3229bd980f6ce60adf3c566fb4c8f749b2999aabff68fbcb67ec053616bf24c"},
 ]
 flake8-import-order = [
     {file = "flake8-import-order-0.18.1.tar.gz", hash = "sha256:a28dc39545ea4606c1ac3c24e9d05c849c6e5444a50fb7e9cdd430fc94de6e92"},
@@ -2102,6 +2124,9 @@ markupsafe = [
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
+]
+mr-proper = [
+    {file = "mr_proper-0.0.6.tar.gz", hash = "sha256:12da55d81f04dd0e8ede6f8a1d76e6e5026d3f758b7942c8c215e07d86227bd1"},
 ]
 mypy = [
     {file = "mypy-0.790-cp35-cp35m-macosx_10_6_x86_64.whl", hash = "sha256:bd03b3cf666bff8d710d633d1c56ab7facbdc204d567715cb3b9f85c6e94f669"},
@@ -2399,6 +2424,10 @@ sphinxcontrib-qthelp = [
 sphinxcontrib-serializinghtml = [
     {file = "sphinxcontrib-serializinghtml-1.1.4.tar.gz", hash = "sha256:eaa0eccc86e982a9b939b2b82d12cc5d013385ba5eadcc7e4fed23f4405f77bc"},
     {file = "sphinxcontrib_serializinghtml-1.1.4-py2.py3-none-any.whl", hash = "sha256:f242a81d423f59617a8e5cf16f5d4d74e28ee9a66f9e5b637a18082991db5a9a"},
+]
+stdlib-list = [
+    {file = "stdlib-list-0.8.0.tar.gz", hash = "sha256:a1e503719720d71e2ed70ed809b385c60cd3fb555ba7ec046b96360d30b16d9f"},
+    {file = "stdlib_list-0.8.0-py3-none-any.whl", hash = "sha256:2ae0712a55b68f3fbbc9e58d6fa1b646a062188f49745b495f94d3310a9fdd3e"},
 ]
 testfixtures = [
     {file = "testfixtures-6.17.0-py2.py3-none-any.whl", hash = "sha256:ebcc3e024d47bb58a60cdc678604151baa0c920ae2814004c89ac9066de31b2c"},
