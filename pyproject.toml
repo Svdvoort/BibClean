@@ -43,7 +43,7 @@ click = "^7.1.2"
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"
 pytest-memprof = "^0.2.0"
-pytest-cov = "^2.8.1"
+pytest-cov = "^2.11.1"
 pytest-datafiles = "^2.0"
 pytest-xdist = "^2.2.0"
 xdoctest = "^0.15.2"
