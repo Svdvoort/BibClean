@@ -37,7 +37,7 @@ pylatexenc = "^2.8"
 IDUtils = "^1.1.8"
 nltk = "^3.5"
 wordninja = "^2.0.0"
-PyYAML = "^5.3.1"
+PyYAML = "^5.4.1"
 click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
