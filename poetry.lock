@@ -1284,7 +1284,7 @@ testing = ["filelock"]
 
 [[package]]
 name = "python-levenshtein"
-version = "0.12.1"
+version = "0.12.2"
 description = "Python extension for computing string edit distances and similarities."
 category = "main"
 optional = false
@@ -1709,7 +1709,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "a463d213ddf9786d0f0c19b6a42d1a5c44f90f86da99a7aeee96b06c0a0e3fcf"
+content-hash = "b2464d6a4d36340d6b51715ffa6e59d4d60041b09b23b52af2e1cec1ff0f8fd4"
 
 [metadata.files]
 alabaster = [
@@ -2315,7 +2315,7 @@ pytest-xdist = [
     {file = "pytest_xdist-2.2.0-py3-none-any.whl", hash = "sha256:f127e11e84ad37cc1de1088cb2990f3c354630d428af3f71282de589c5bb779b"},
 ]
 python-levenshtein = [
-    {file = "python-Levenshtein-0.12.1.tar.gz", hash = "sha256:554e273a88060d177e7b3c1e6ea9158dde11563bfae8f7f661f73f47e5ff0911"},
+    {file = "python-Levenshtein-0.12.2.tar.gz", hash = "sha256:dc2395fbd148a1ab31090dd113c366695934b9e85fe5a4b2a032745efd0346f6"},
 ]
 pytz = [
     {file = "pytz-2020.5-py2.py3-none-any.whl", hash = "sha256:16962c5fb8db4a8f63a26646d8886e9d769b6c511543557bc84e9569fb9a9cb4"},
