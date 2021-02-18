@@ -122,8 +122,8 @@ def process_bib(config_file=None, input_file=None, output_file=None):
                 logger.warning(msg)
                 new_entries.append(entry)
 
-    bib_database.entries = new_entries
-    writers.write_bibtex_file(bib_database, out_bib_file)
+        bib_database.entries = new_entries
+        writers.write_bibtex_file(bib_database, out_bib_file)
 
 
 @click.command()
