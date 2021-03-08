@@ -1178,7 +1178,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "pylatexenc"
-version = "2.8"
+version = "2.9"
 description = "Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion"
 category = "main"
 optional = false
@@ -1709,7 +1709,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "ac7ecb616ed4805fa7be14f0caf83ee6bb5095119066dfc5665b3fdbdf159786"
+content-hash = "143b0a694a7c423c60e99ed3a9020588d99cceeed05031a40988f4d7703fc2ed"
 
 [metadata.files]
 alabaster = [
@@ -2285,7 +2285,7 @@ pygments = [
     {file = "Pygments-2.7.3.tar.gz", hash = "sha256:ccf3acacf3782cbed4a989426012f1c535c9a90d3a7fc3f16d231b9372d2b716"},
 ]
 pylatexenc = [
-    {file = "pylatexenc-2.8.tar.gz", hash = "sha256:962dfa355f0a99489e200966446cf396366b9825c63e5de2cf5ade289eb874d4"},
+    {file = "pylatexenc-2.9.tar.gz", hash = "sha256:e44113c7520128e20f232cfb3777762c2c6c9f0c239c40ed381c12d8616002aa"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
