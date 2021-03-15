@@ -1624,7 +1624,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "unimport"
-version = "0.7.4"
+version = "0.8.3"
 description = "A linter, formatter for finding and removing unused import statements."
 category = "dev"
 optional = false
@@ -1709,7 +1709,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "c894e3eeba33f17ac07fce6fe88ed4dbc9f3f4db0aeefc779e89623d7fdbf83d"
+content-hash = "498071613d0addd6dfa32ce17995ba33d804ac3a03e828b886fa91bae13e0521"
 
 [metadata.files]
 alabaster = [
@@ -2528,7 +2528,7 @@ unidecode = [
     {file = "Unidecode-1.1.2.tar.gz", hash = "sha256:a039f89014245e0cad8858976293e23501accc9ff5a7bdbc739a14a2b7b85cdc"},
 ]
 unimport = [
-    {file = "unimport-0.7.4.tar.gz", hash = "sha256:5914d81ed945ab84eb9cbe42529b408c0553dbc4bdeaec7a3607b11b52dfd9ec"},
+    {file = "unimport-0.8.3.tar.gz", hash = "sha256:821667d2747cd7925fe9fa431ff8453b4304193daeae7b9668c5d065ce6d6673"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.2-py2.py3-none-any.whl", hash = "sha256:d8ff90d979214d7b4f8ce956e80f4028fc6860e4431f731ea4a8c08f23f99473"},
