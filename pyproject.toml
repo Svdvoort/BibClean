@@ -41,7 +41,7 @@ PyYAML = "^5.4.1"
 click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.2"
+pytest = "^6.2.3"
 pytest-memprof = "^0.2.0"
 pytest-cov = "^2.11.1"
 pytest-datafiles = "^2.0"
