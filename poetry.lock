@@ -453,7 +453,7 @@ flake8 = "*"
 
 [[package]]
 name = "flake8-black"
-version = "0.2.1"
+version = "0.2.3"
 description = "flake8 plugin to call black as a code style validator"
 category = "dev"
 optional = false
@@ -462,6 +462,7 @@ python-versions = "*"
 [package.dependencies]
 black = "*"
 flake8 = ">=3.0.0"
+toml = "*"
 
 [[package]]
 name = "flake8-broken-line"
@@ -1739,7 +1740,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "7bfcf1d2f9b4b10b8d1ba202c609b390817959f9485464f805e9934b84a7bb86"
+content-hash = "832ad17c398b8c02e0c732f8851e350f04c145b50d642fb7e50eaeac376e9295"
 
 [metadata.files]
 alabaster = [
@@ -1955,8 +1956,8 @@ flake8-assertive = [
     {file = "flake8_assertive-1.3.0-py2.py3-none-any.whl", hash = "sha256:e4901b00c93bdff2357e93af6444ec5ea32efc03add86ad0c946e82f6e5770d7"},
 ]
 flake8-black = [
-    {file = "flake8-black-0.2.1.tar.gz", hash = "sha256:f26651bc10db786c03f4093414f7c9ea982ed8a244cec323c984feeffdf4c118"},
-    {file = "flake8_black-0.2.1-py3-none-any.whl", hash = "sha256:941514149cb8b489cb17a4bb1cf18d84375db3b34381bb018de83509437931a0"},
+    {file = "flake8-black-0.2.3.tar.gz", hash = "sha256:c199844bc1b559d91195ebe8620216f21ed67f2cc1ff6884294c91a0d2492684"},
+    {file = "flake8_black-0.2.3-py3-none-any.whl", hash = "sha256:cc080ba5b3773b69ba102b6617a00cc4ecbad8914109690cfda4d565ea435d96"},
 ]
 flake8-broken-line = [
     {file = "flake8-broken-line-0.3.0.tar.gz", hash = "sha256:f74e052833324a9e5f0055032f7ccc54b23faabafe5a26241c2f977e70b10b50"},
