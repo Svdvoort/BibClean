@@ -1412,7 +1412,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "sphinx"
-version = "4.1.0"
+version = "4.1.1"
 description = "Python documentation generator"
 category = "dev"
 optional = false
@@ -1431,10 +1431,10 @@ requests = ">=2.5.0"
 snowballstemmer = ">=1.1"
 sphinxcontrib-applehelp = "*"
 sphinxcontrib-devhelp = "*"
-sphinxcontrib-htmlhelp = "*"
+sphinxcontrib-htmlhelp = ">=2.0.0"
 sphinxcontrib-jsmath = "*"
 sphinxcontrib-qthelp = "*"
-sphinxcontrib-serializinghtml = "*"
+sphinxcontrib-serializinghtml = ">=1.1.5"
 
 [package.extras]
 docs = ["sphinxcontrib-websupport"]
@@ -1497,11 +1497,11 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxcontrib-htmlhelp"
-version = "1.0.3"
+version = "2.0.0"
 description = "sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files"
 category = "dev"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
 
 [package.extras]
 lint = ["flake8", "mypy", "docutils-stubs"]
@@ -1532,7 +1532,7 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxcontrib-serializinghtml"
-version = "1.1.4"
+version = "1.1.5"
 description = "sphinxcontrib-serializinghtml is a sphinx extension which outputs \"serialized\" HTML files (json and pickle)."
 category = "dev"
 optional = false
@@ -1736,7 +1736,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "816c1de86e9ac15d7401fc4f968321493935ce2de880c36dd79bc1490e5fd0e2"
+content-hash = "0f19695d8de73edecc6de0e08d1daa9f45aa19c067b444e3bfa15371eef59c27"
 
 [metadata.files]
 alabaster = [
@@ -2465,8 +2465,8 @@ soupsieve = [
     {file = "soupsieve-2.1.tar.gz", hash = "sha256:6dc52924dc0bc710a5d16794e6b3480b2c7c08b07729505feab2b2c16661ff6e"},
 ]
 sphinx = [
-    {file = "Sphinx-4.1.0-py3-none-any.whl", hash = "sha256:51028bb0d3340eb80bcc1a2d614e8308ac78d226e6b796943daf57920abc1aea"},
-    {file = "Sphinx-4.1.0.tar.gz", hash = "sha256:4219f14258ca5612a0c85ed9b7222d54da69724d7e9dd92d1819ad1bf65e1ad2"},
+    {file = "Sphinx-4.1.1-py3-none-any.whl", hash = "sha256:3d513088236eef51e5b0adb78b0492eb22cc3b8ccdb0b36dd021173b365d4454"},
+    {file = "Sphinx-4.1.1.tar.gz", hash = "sha256:23c846a1841af998cb736218539bb86d16f5eb95f5760b1966abcd2d584e62b8"},
 ]
 sphinx-autodoc-typehints = [
     {file = "sphinx-autodoc-typehints-1.12.0.tar.gz", hash = "sha256:193617d9dbe0847281b1399d369e74e34cd959c82e02c7efde077fca908a9f52"},
@@ -2485,8 +2485,8 @@ sphinxcontrib-devhelp = [
     {file = "sphinxcontrib_devhelp-1.0.2-py2.py3-none-any.whl", hash = "sha256:8165223f9a335cc1af7ffe1ed31d2871f325254c0423bc0c4c7cd1c1e4734a2e"},
 ]
 sphinxcontrib-htmlhelp = [
-    {file = "sphinxcontrib-htmlhelp-1.0.3.tar.gz", hash = "sha256:e8f5bb7e31b2dbb25b9cc435c8ab7a79787ebf7f906155729338f3156d93659b"},
-    {file = "sphinxcontrib_htmlhelp-1.0.3-py2.py3-none-any.whl", hash = "sha256:3c0bc24a2c41e340ac37c85ced6dafc879ab485c095b1d65d2461ac2f7cca86f"},
+    {file = "sphinxcontrib-htmlhelp-2.0.0.tar.gz", hash = "sha256:f5f8bb2d0d629f398bf47d0d69c07bc13b65f75a81ad9e2f71a63d4b7a2f6db2"},
+    {file = "sphinxcontrib_htmlhelp-2.0.0-py2.py3-none-any.whl", hash = "sha256:d412243dfb797ae3ec2b59eca0e52dac12e75a241bf0e4eb861e450d06c6ed07"},
 ]
 sphinxcontrib-jsmath = [
     {file = "sphinxcontrib-jsmath-1.0.1.tar.gz", hash = "sha256:a9925e4a4587247ed2191a22df5f6970656cb8ca2bd6284309578f2153e0c4b8"},
@@ -2497,8 +2497,8 @@ sphinxcontrib-qthelp = [
     {file = "sphinxcontrib_qthelp-1.0.3-py2.py3-none-any.whl", hash = "sha256:bd9fc24bcb748a8d51fd4ecaade681350aa63009a347a8c14e637895444dfab6"},
 ]
 sphinxcontrib-serializinghtml = [
-    {file = "sphinxcontrib-serializinghtml-1.1.4.tar.gz", hash = "sha256:eaa0eccc86e982a9b939b2b82d12cc5d013385ba5eadcc7e4fed23f4405f77bc"},
-    {file = "sphinxcontrib_serializinghtml-1.1.4-py2.py3-none-any.whl", hash = "sha256:f242a81d423f59617a8e5cf16f5d4d74e28ee9a66f9e5b637a18082991db5a9a"},
+    {file = "sphinxcontrib-serializinghtml-1.1.5.tar.gz", hash = "sha256:aa5f6de5dfdf809ef505c4895e51ef5c9eac17d0f287933eb49ec495280b6952"},
+    {file = "sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl", hash = "sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd"},
 ]
 stdlib-list = [
     {file = "stdlib-list-0.8.0.tar.gz", hash = "sha256:a1e503719720d71e2ed70ed809b385c60cd3fb555ba7ec046b96360d30b16d9f"},
