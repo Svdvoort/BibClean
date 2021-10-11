@@ -202,7 +202,7 @@ unicode_backport = ["unicodedata2"]
 
 [[package]]
 name = "click"
-version = "8.0.1"
+version = "8.0.3"
 description = "Composable command line interface toolkit"
 category = "main"
 optional = false
@@ -1757,7 +1757,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "ea05d78fd3762a40c17f423e47ba96b2f6260d351c3d2fd83b50cee86cca3a2e"
+content-hash = "f701a4c881a9ba8c1b6b1bde3f4b6a11a8cda09001cdec68eb2a197785d21bd8"
 
 [metadata.files]
 alabaster = [
@@ -1825,8 +1825,8 @@ charset-normalizer = [
     {file = "charset_normalizer-2.0.3-py3-none-any.whl", hash = "sha256:88fce3fa5b1a84fdcb3f603d889f723d1dd89b26059d0123ca435570e848d5e1"},
 ]
 click = [
-    {file = "click-8.0.1-py3-none-any.whl", hash = "sha256:fba402a4a47334742d782209a7c79bc448911afe1149d07bdabdf480b3e2f4b6"},
-    {file = "click-8.0.1.tar.gz", hash = "sha256:8c04c11192119b1ef78ea049e0a6f0463e4c48ef00a30160c704337586f3ad7a"},
+    {file = "click-8.0.3-py3-none-any.whl", hash = "sha256:353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3"},
+    {file = "click-8.0.3.tar.gz", hash = "sha256:410e932b050f5eed773c4cda94de75971c89cdb3155a72a0831139a79e5ecb5b"},
 ]
 cognitive-complexity = [
     {file = "cognitive_complexity-1.2.0.tar.gz", hash = "sha256:3c2b433a9e41502932f6aa629e1f57a5e8f145956c54facbb5241a9492af6fb7"},
