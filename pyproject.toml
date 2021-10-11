@@ -38,7 +38,7 @@ IDUtils = "^1.1.9"
 nltk = "^3.6"
 wordninja = "^2.0.0"
 PyYAML = "^5.4.1"
-click = "^8.0.1"
+click = "^8.0.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
