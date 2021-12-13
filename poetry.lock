@@ -782,11 +782,11 @@ flake8 = ">=3.5.0"
 
 [[package]]
 name = "flake8-rst-docstrings"
-version = "0.2.3"
+version = "0.2.5"
 description = "Python docstring reStructuredText (RST) validator"
 category = "dev"
 optional = false
-python-versions = ">=3.3"
+python-versions = ">=3.6"
 
 [package.dependencies]
 flake8 = ">=3.0.0"
@@ -1757,7 +1757,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "a8f6c06d6aa8b463c1732a24bdd50e6f594b792bfc4c8a87775e6c34058a1182"
+content-hash = "4cc66baa10698e27147788979b3c61309109fa7c193a57ce9409bea13e9b5b51"
 
 [metadata.files]
 alabaster = [
@@ -2073,8 +2073,8 @@ flake8-rst = [
     {file = "flake8_rst-0.8.0-py3-none-any.whl", hash = "sha256:ceabbafbad817e4d22c7836c06c9cf559e394ca89d8ae73155dec81302890d44"},
 ]
 flake8-rst-docstrings = [
-    {file = "flake8-rst-docstrings-0.2.3.tar.gz", hash = "sha256:3045794e1c8467fba33aaea5c246b8369efc9c44ef8b0b20199bb6df7a4bd47b"},
-    {file = "flake8_rst_docstrings-0.2.3-py3-none-any.whl", hash = "sha256:565bbb391d7e4d0042924102221e9857ad72929cdd305b26501736ec22c1451a"},
+    {file = "flake8-rst-docstrings-0.2.5.tar.gz", hash = "sha256:4fe93f997dea45d9d3c8bd220f12f0b6c359948fb943b5b48021a3f927edd816"},
+    {file = "flake8_rst_docstrings-0.2.5-py3-none-any.whl", hash = "sha256:b99d9041b769b857efe45a448dc8c71b1bb311f9cacbdac5de82f96498105082"},
 ]
 flake8-strict = [
     {file = "flake8_strict-0.2.1-py2.py3-none-any.whl", hash = "sha256:2ef66f75f9215c2084ae7d1b18e158a3c392141a5621ecab28858256ea75d41e"},
