@@ -407,11 +407,11 @@ importlib-metadata = {version = ">=0.9", markers = "python_version < \"3.8\""}
 
 [[package]]
 name = "flake8-aaa"
-version = "0.12.0"
+version = "0.12.2"
 description = "A Flake8 plugin that checks Python tests follow the Arrange-Act-Assert pattern"
 category = "dev"
 optional = false
-python-versions = ">=3.6, <4"
+python-versions = ">=3.7, <4"
 
 [package.dependencies]
 asttokens = ">=2"
@@ -1757,7 +1757,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "60f89d4d632ce2e8e27f5a02c4fde3f0a5d86788acef9e693b4fd8fc5dc82cfe"
+content-hash = "d5d069ea778321b91d5cf8e5ef4dbb55b7ea8d0d13354594935ad226c62d62bc"
 
 [metadata.files]
 alabaster = [
@@ -1948,8 +1948,8 @@ flake8-2020 = [
     {file = "flake8_2020-1.6.1.tar.gz", hash = "sha256:db523e3383befc17c895219551ff6c9b2f6e0a5cae4c7739ea65a2238bdc6f74"},
 ]
 flake8-aaa = [
-    {file = "flake8-aaa-0.12.0.tar.gz", hash = "sha256:ce6acf9c278dc6a34d1b8c3823f88b9ee9048fda80a1a3c04cd29d3876e776dc"},
-    {file = "flake8_aaa-0.12.0-py3-none-any.whl", hash = "sha256:07d8b714b1af53f645107157aa65346e95bb94c8f88c0800fa4e199d22719d52"},
+    {file = "flake8-aaa-0.12.2.tar.gz", hash = "sha256:38b5009248d8bc1e9568c8cc6f00870582f0e6b1be168d2f880a404796029e83"},
+    {file = "flake8_aaa-0.12.2-py3-none-any.whl", hash = "sha256:80840d34885506128a94e4912281bbab315591c414befd496dd041da640a1546"},
 ]
 flake8-annotations = [
     {file = "flake8-annotations-2.7.0.tar.gz", hash = "sha256:52e53c05b0c06cac1c2dec192ea2c36e85081238add3bd99421d56f574b9479b"},
