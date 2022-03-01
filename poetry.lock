@@ -85,17 +85,6 @@ tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)"
 tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six"]
 
 [[package]]
-name = "autosemver"
-version = "0.5.5"
-description = "Tools to handle automatic semantic versioning in python"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-dulwich = ">=0.19.6,<0.20"
-
-[[package]]
 name = "babel"
 version = "2.9.0"
 description = "Internationalization utilities"
@@ -310,23 +299,6 @@ python-versions = "*"
 bibtexparser = "*"
 future = "*"
 requests = "*"
-
-[[package]]
-name = "dulwich"
-version = "0.19.16"
-description = "Python Git Library"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-certifi = "*"
-urllib3 = ">=1.24.1"
-
-[package.extras]
-fastimport = ["fastimport"]
-pgp = ["gpg"]
-https = ["urllib3[secure] (>=1.24.1)"]
 
 [[package]]
 name = "eradicate"
@@ -846,19 +818,19 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "idutils"
-version = "1.1.11"
+version = "1.1.12"
 description = "Small library for persistent identifiers used in scholarly communication."
 category = "main"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
-isbnid-fork = ">=0.4.4"
+isbnlib = ">=3.10.8"
 six = ">=1.10"
 
 [package.extras]
-all = ["Sphinx (>=3)", "pytest-cache (>=1.0)", "pytest-runner (>=2.6.2)", "pytest-invenio (>=1.4.0)"]
-docs = ["Sphinx (>=3)"]
+all = ["Sphinx (>=4.2.0)", "pytest-cache (>=1.0)", "pytest-runner (>=2.6.2)", "pytest-invenio (>=1.4.0)"]
+docs = ["Sphinx (>=4.2.0)"]
 tests = ["pytest-cache (>=1.0)", "pytest-runner (>=2.6.2)", "pytest-invenio (>=1.4.0)"]
 
 [[package]]
@@ -894,18 +866,12 @@ optional = false
 python-versions = "*"
 
 [[package]]
-name = "isbnid-fork"
-version = "0.5.2"
-description = "Python ISBN ids"
+name = "isbnlib"
+version = "3.10.10"
+description = "Extract, clean, transform, hyphenate and metadata for ISBNs (International Standard Book Number)."
 category = "main"
 optional = false
 python-versions = "*"
-
-[package.dependencies]
-autosemver = ">=0.2,<1.0"
-
-[package.extras]
-tests = ["pytest-pep8 (>=1.0.6)", "pytest (>=3.0.4)"]
 
 [[package]]
 name = "isort"
@@ -1737,7 +1703,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "711c28c9bd53df14044c7f55382386e9b3b51dcc3f112440fcd204bc3759609a"
+content-hash = "b1580021c461d9dcc0fdfe92f1190810feb6a1dc722d37a3801b35931f2e38fc"
 
 [metadata.files]
 alabaster = [
@@ -1770,9 +1736,6 @@ atomicwrites = [
 attrs = [
     {file = "attrs-20.3.0-py2.py3-none-any.whl", hash = "sha256:31b2eced602aa8423c2aea9c76a724617ed67cf9513173fd3a4f03e3a929c7e6"},
     {file = "attrs-20.3.0.tar.gz", hash = "sha256:832aa3cde19744e49938b91fea06d69ecb9e649c93ba974535d08ad92164f700"},
-]
-autosemver = [
-    {file = "autosemver-0.5.5.tar.gz", hash = "sha256:0af1e8a9c3604545c067311f1c26403e8f0d60b5d9561c0217e14eee21c98b02"},
 ]
 babel = [
     {file = "Babel-2.9.0-py2.py3-none-any.whl", hash = "sha256:9d35c22fcc79893c3ecc85ac4a56cde1ecf3f19c540bba0922308a6c06ca6fa5"},
@@ -1905,15 +1868,6 @@ docutils = [
 doi2bib = [
     {file = "doi2bib-0.4.0-py2-none-any.whl", hash = "sha256:4a2e2a14df4cff1f6cf2c1de4fda3545f6f6f76ef7f331ae81a582472042cb67"},
     {file = "doi2bib-0.4.0-py3-none-any.whl", hash = "sha256:09401f766b1533c6d17d428ba26c65433009478f1b8d67a2b7f32871e9e8f90d"},
-]
-dulwich = [
-    {file = "dulwich-0.19.16-cp27-cp27m-win32.whl", hash = "sha256:267160904e9a1cb6c248c5efc53597a35d038ecc6f60bdc4546b3053bed11982"},
-    {file = "dulwich-0.19.16-cp27-cp27m-win_amd64.whl", hash = "sha256:4e3aba5e4844e7c700721c1fc696987ea820ee3528a03604dc4e74eff4196826"},
-    {file = "dulwich-0.19.16-cp35-cp35m-win_amd64.whl", hash = "sha256:60bb2c2c92f5025c1b53a556304008f0f624c98ae36f22d870e056b2d4236c11"},
-    {file = "dulwich-0.19.16-cp36-cp36m-win_amd64.whl", hash = "sha256:f00d132082b8fcc2eb0d722abc773d4aeb5558c1475d7edd1f0f571146c29db9"},
-    {file = "dulwich-0.19.16-py2-none-any.whl", hash = "sha256:10699277c6268d0c16febe141a5b1c1a6e9744f3144c2d2de1706f4b1adafe63"},
-    {file = "dulwich-0.19.16-py3-none-any.whl", hash = "sha256:dddae02d372fc3b5cfb0046d0f62246ef281fa0c088df7601ab5916607add94b"},
-    {file = "dulwich-0.19.16.tar.gz", hash = "sha256:f74561c448bfb6f04c07de731c1181ae4280017f759b0bb04fa5770aa84ca850"},
 ]
 eradicate = [
     {file = "eradicate-2.0.0.tar.gz", hash = "sha256:27434596f2c5314cc9b31410c93d8f7e8885747399773cd088d3adea647a60c8"},
@@ -2090,8 +2044,8 @@ idna = [
     {file = "idna-2.10.tar.gz", hash = "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6"},
 ]
 idutils = [
-    {file = "IDUtils-1.1.11-py2.py3-none-any.whl", hash = "sha256:23ac47a026b0c709ffc79efd9fb54e4102913fb1f29a5bae56cd8f8f6cae124a"},
-    {file = "IDUtils-1.1.11.tar.gz", hash = "sha256:e9fb8eb0ce933d09fa347e01dc47ff28006b77bea434f4beb8d78bc693b2d01d"},
+    {file = "IDUtils-1.1.12-py2.py3-none-any.whl", hash = "sha256:c625193d7991f5c396aaf4c6af83865fb032ce51e1f60e7271d129d8df2bd2b1"},
+    {file = "IDUtils-1.1.12.tar.gz", hash = "sha256:6246205d35d07466c9ce807a2bdf616eaacb3b8fc2934ccdf1bf51ea41785de7"},
 ]
 imagesize = [
     {file = "imagesize-1.2.0-py2.py3-none-any.whl", hash = "sha256:6965f19a6a2039c7d48bca7dba2473069ff854c36ae6f19d2cde309d998228a1"},
@@ -2105,8 +2059,9 @@ iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
-isbnid-fork = [
-    {file = "isbnid_fork-0.5.2.tar.gz", hash = "sha256:8d878866aa0e7f06e700a37fce586c7398ce4837da8bca39683db7028a9c3837"},
+isbnlib = [
+    {file = "isbnlib-3.10.10-py2.py3-none-any.whl", hash = "sha256:623a09329e8ec7049edf15dd412db042bf4f8236a428bf7a22d84a125584f52d"},
+    {file = "isbnlib-3.10.10.tar.gz", hash = "sha256:c9e6c1dcaa9dff195429373cf2beb3117f30b3fca43d7db5aec5a2d1f6f59784"},
 ]
 isort = [
     {file = "isort-5.7.0-py3-none-any.whl", hash = "sha256:fff4f0c04e1825522ce6949973e83110a6e907750cd92d128b0d14aaaadbffdc"},
