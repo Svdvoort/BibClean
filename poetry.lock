@@ -726,7 +726,7 @@ flake8 = "*"
 
 [[package]]
 name = "flake8-requirements"
-version = "1.5.2"
+version = "1.5.3"
 description = "Package requirements checker, plugin for flake8"
 category = "dev"
 optional = false
@@ -1706,7 +1706,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "2adce40ce2abb5e38d24e628eb78068016a500ad324836c0f2c97bf500c88157"
+content-hash = "df6471e423c37b5493dd0b1a25b86b6f50dc1267728d4876edfe3718da2e6a46"
 
 [metadata.files]
 alabaster = [
@@ -2017,7 +2017,7 @@ flake8-quotes = [
     {file = "flake8-quotes-3.3.1.tar.gz", hash = "sha256:633adca6fb8a08131536af0d750b44d6985b9aba46f498871e21588c3e6f525a"},
 ]
 flake8-requirements = [
-    {file = "flake8_requirements-1.5.2-py2.py3-none-any.whl", hash = "sha256:3f511d17044e9185644c09cdb42fcaba7b6f285c978fb9ae2a8e468a50b73f61"},
+    {file = "flake8_requirements-1.5.3-py2.py3-none-any.whl", hash = "sha256:e3568f305dc7d42a65b238a00c432fe81e5ffa6be5c6c7d46154c21400504eb4"},
 ]
 flake8-rst = [
     {file = "flake8_rst-0.8.0-py3-none-any.whl", hash = "sha256:ceabbafbad817e4d22c7836c06c9cf559e394ca89d8ae73155dec81302890d44"},
