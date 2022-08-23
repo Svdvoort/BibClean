@@ -618,7 +618,7 @@ test = ["pytest-cov"]
 
 [[package]]
 name = "flake8-logging-format"
-version = "0.7.4"
+version = "0.7.5"
 description = ""
 category = "dev"
 optional = false
@@ -1698,7 +1698,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "ef83de4c14e0bcb148c4ebc901dd105a6d92ec55ac434c54383f4ff1ef2a2a18"
+content-hash = "62d4dba362c03839db395ac359748643bcc28a91acdcfb7a256166cfa0830281"
 
 [metadata.files]
 alabaster = [
@@ -1980,7 +1980,7 @@ flake8-isort = [
     {file = "flake8_isort-4.2.0-py3-none-any.whl", hash = "sha256:5b87630fb3719bf4c1833fd11e0d9534f43efdeba524863e15d8f14a7ef6adbf"},
 ]
 flake8-logging-format = [
-    {file = "flake8-logging-format-0.7.4.tar.gz", hash = "sha256:d867b46a8a2da5d6b70aa115022a104cf6dae6a671637aae2ef3eb6eac4235dd"},
+    {file = "flake8-logging-format-0.7.5.tar.gz", hash = "sha256:54f7e349c934ce5c594f251885bc2240e99f6b48752a672a8fc7e3d1388352bb"},
 ]
 flake8-markdown = [
     {file = "flake8-markdown-0.3.0.tar.gz", hash = "sha256:5b54f143c9568da11a9d74ce5e580e96685fe758a14933f140c6d7006041fafd"},
