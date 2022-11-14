@@ -1644,7 +1644,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "unimport"
-version = "0.12.1"
+version = "0.12.2"
 description = "A linter, formatter for finding and removing unused import statements."
 category = "dev"
 optional = false
@@ -1737,7 +1737,7 @@ testing = ["func-timeout", "jaraco.itertools", "jaraco.test (>=3.2.0)", "pytest 
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "feac0d3e99fd082348bb2c48f066e95cef2f6d8271ae025da76f054f40489ac4"
+content-hash = "01756e75bc9ec32b41e1d8523a12aaae31510fddd50d9f8f003baca3d67ec934"
 
 [metadata.files]
 alabaster = [
@@ -2809,8 +2809,8 @@ unidecode = [
     {file = "Unidecode-1.1.2.tar.gz", hash = "sha256:a039f89014245e0cad8858976293e23501accc9ff5a7bdbc739a14a2b7b85cdc"},
 ]
 unimport = [
-    {file = "unimport-0.12.1-py3-none-any.whl", hash = "sha256:90c7eee542b3cef404ec9f39cc9bf5f14412b31b8d5654b38eba2ceb0ce47986"},
-    {file = "unimport-0.12.1.tar.gz", hash = "sha256:fb6238efdd9e1b1f2e433dfd9afe060ea4c7ce0056d530443abdd6b66a868e39"},
+    {file = "unimport-0.12.2-py3-none-any.whl", hash = "sha256:41f8b99f3e089db9262962e9641d687cc5e41957dc01a6a8eef86cd446bc25d1"},
+    {file = "unimport-0.12.2.tar.gz", hash = "sha256:5a0d429b1bc67267ada6b91fee1a1154fb0923adc8f897b4c1bdde58ab9ab61f"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.2-py2.py3-none-any.whl", hash = "sha256:d8ff90d979214d7b4f8ce956e80f4028fc6860e4431f731ea4a8c08f23f99473"},
