@@ -1172,15 +1172,15 @@ files = [
 ]
 
 [[package]]
-name = "IDUtils"
-version = "1.1.13"
-description = "Small library for persistent identifiers used in scholarly communication."
+name = "idutils"
+version = "1.2.0"
+description = "\"Small library for persistent identifiers used in scholarly communication.\""
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 files = [
-    {file = "IDUtils-1.1.13-py2.py3-none-any.whl", hash = "sha256:6d7976f632fd14d6e08134500f1aff31ae8ca6cd0af8a23e989f1a98361bc5e8"},
-    {file = "IDUtils-1.1.13.tar.gz", hash = "sha256:491f33cd01809059e03bdf61174abf2d85585f252d1caf2ebd06357ea1ff284a"},
+    {file = "idutils-1.2.0-py2.py3-none-any.whl", hash = "sha256:2ae93b1516e30a2d92d9bbf1add7baa6401d6868fc1625842ddbefe6f94890b0"},
+    {file = "idutils-1.2.0.tar.gz", hash = "sha256:d5248a869ae0f33d47da14bf5754bad6b6d4daae6f086674888aaf0e74e19cb1"},
 ]
 
 [package.dependencies]
@@ -1188,9 +1188,7 @@ isbnlib = ">=3.10.8"
 six = ">=1.10"
 
 [package.extras]
-all = ["Sphinx (>=4.2.0)", "pytest-cache (>=1.0)", "pytest-invenio (>=1.4.0)", "pytest-runner (>=2.6.2)"]
-docs = ["Sphinx (>=4.2.0)"]
-tests = ["pytest-cache (>=1.0)", "pytest-invenio (>=1.4.0)", "pytest-runner (>=2.6.2)"]
+tests = ["pytest-black (>=0.3.0,<0.3.10)", "pytest-cache (>=1.0)", "pytest-invenio (>=1.4.0)", "pytest-runner (>=2.6.2)", "sphinx (>=4.5)"]
 
 [[package]]
 name = "imagesize"
@@ -2817,4 +2815,4 @@ testing = ["func-timeout", "jaraco.itertools", "jaraco.test (>=3.2.0)", "pytest 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "990ed18390534aace98ee0eda9b8f4a4d7ce7e2dda482c33023619b2822ef839"
+content-hash = "86ae4bfd2919344c0ff0870bc38257499ec46c4f4eb74743ad09b7bdcbef4b46"
