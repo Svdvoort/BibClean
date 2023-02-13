@@ -2716,14 +2716,14 @@ files = [
 
 [[package]]
 name = "unimport"
-version = "0.12.3"
+version = "0.14.1"
 description = "A linter, formatter for finding and removing unused import statements."
 category = "dev"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "unimport-0.12.3-py3-none-any.whl", hash = "sha256:5a8c3c21b7a94fa7f04dddeabe03c101cdd54eb1d10fd6355cbf51e8ed810bd7"},
-    {file = "unimport-0.12.3.tar.gz", hash = "sha256:97f359ca5dd30a45846f2b83ba3339c7c5bf789d0d7d7cb6911b0bf602ed6d89"},
+    {file = "unimport-0.14.1-py3-none-any.whl", hash = "sha256:eae3a5f4528703566980a078036d14cce5575d43d5fd9885d86dea227198cd15"},
+    {file = "unimport-0.14.1.tar.gz", hash = "sha256:cd0a115610596e6f2f47027ac09ff49a1779587a5bffc5fea50e1024c66104cb"},
 ]
 
 [package.dependencies]
@@ -2833,4 +2833,4 @@ testing = ["func-timeout", "jaraco.itertools", "jaraco.test (>=3.2.0)", "pytest 
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.7.0,<3.9"
-content-hash = "3735955539fef532ef06b1c64ea7dbb22a622ce634f1fee21ab761e779c53224"
+content-hash = "01aaeda0ab68f97f766c343f936295728e4c9baa67943e70aace30c670e557e5"
