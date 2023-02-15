@@ -50,7 +50,7 @@ xdoctest = "^1.1.1"
 
 darglint = "^1.8.1"
 
-black = "^22.12"
+black = "^23.1"
 
 mypy = "^1.0"
 
